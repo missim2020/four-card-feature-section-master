@@ -1,0 +1,122 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  width: 1440px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+h4 {
+  margin-left: 15px;
+}
+
+p {
+  margin-left: 15px;
+  color: hsl(229, 6%, 66%);
+  font-size: 0.8rem;
+}
+
+div {
+  width: 300px;
+  height: 200px;
+  border-top: solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
+  margin: 15px;
+  background-color: white;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-builder {
+  border-top-color: Red;
+}
+
+.karma {
+  border-top-color: Orange;
+}
+
+.Supervisor {
+  border-top-color: cyan;
+  transform: translateY(50%);
+}
+
+.calculator {
+  border-top-color: Blue;
+  transform: translateY(50%);
+}
+
+@media only screen and (max-width:800px) {
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+
+  .main {
+    display: flex;
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  div {
+    display: block;
+  }
+
+  .Supervisor {
+    transform: none;
+  }
+
+  .calculator {
+    transform: none;
+  }
+
+  .attribution {
+    text-align: center;
+  }
+}
